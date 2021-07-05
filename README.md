@@ -32,7 +32,7 @@ The algorithm is a form of fine-tuning method. We take the same model we develop
 
 |File name         | Purpsoe |
 |----------------------|------|
-|`ls_dqn_main.py`| general purpose main application for training/playing a LS-DQN agent|
+|`Creating_the_Covid_19_Dataset.ipynb`| code for fetchin only PA X-ray images from the covid dataset|
 |`pong_ls_dqn.py`| main application tailored for Atari's Pong|
 |`boxing_ls_dqn.py`| main application tailored for Atari's Boxing|
 |`dqn_play.py`| sample code for playing a game, also in `ls_dqn_main.py`|
