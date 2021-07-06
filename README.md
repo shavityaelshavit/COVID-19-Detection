@@ -1,16 +1,10 @@
-# COVID-19-Detection
+# COVID 19 Detection
 In this project we depeloped a  Convolutional Neural Network algorithm to predict Covid-19 from chest X-Ray images. First we trained the model to predict Pneumonia from Pneumonia chest X-Ray dataset, and then fine-tuned the model on the Covid data.
 
 
-- [COVID-19-Detection](#COVID-19-Detection)
+- [COVID 19 Detection](#COVID-19-Detection)
   * [Background](#background)
-  * [Prerequisites](#prerequisites)
   * [Files in the repository](#files-in-the-repository)
-  * [API (`ls_dqn_main.py --help`)](#api---ls-dqn-mainpy---help--)
-  * [Playing](#playing)
-  * [Training](#training)
-  * [Playing Atari on Windows](#playing-atari-on-windows)
-  * [TensorBoard](#tensorboard)
   * [References](#references)
 
 ## Background
@@ -48,8 +42,6 @@ The algorithm is a form of fine-tuning method. We take the same model we develop
 |`*.pth`| Checkpoint files for the Agents (playing/continual learning)|
 |`Deep_RL_Shallow_Updates_for_Deep_Reinforcement_Learning.pdf`| Writeup - theory and results|
 
-
-## API (`ls_dqn_main.py --help`)
 
 
 ## Changing the model
