@@ -28,8 +28,10 @@ The algorithm is a form of fine-tuning method. We take the same model we develop
 
 |File name         | Purpsoe |
 |----------------------|------|
-|`Creating_the_Covid_19_Dataset.ipynb`| code for fetchin only PA X-ray images from the covid dataset|
-|`pong_ls_dqn.py`| main code for this frojet in Colaboratory format. to open, import to Colaboratory|
+|`COVID_19_Detection.ipynb`| main code for this frojet in Colaboratory format. to open, import to Colaboratory|
+|`COVID_19_Detection.py`| main code for this frojet in py format|
+|`Creating_the_Covid_19_Dataset.ipynb`| code for fetching only PA X-ray images from the covid dataset. Colaboratory format|
+|`**COVID_19_Detection.py`| code for fetching only PA X-ray images from the covid dataset. Colaboratory formay|
 |`boxing_ls_dqn.py`| main code for this frojet in py format|
 
 
