@@ -63,5 +63,8 @@ you can also play with the pretrained model. we choose efficientNet-b0, but you 
 
 ## References
 * Pneumonia Dataset source: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
-* Cobid-19 Dataset source: https://www.kaggle.com/bachrr/covid-chest-xray
+* Covid-19 Dataset source: https://www.kaggle.com/bachrr/covid-chest-xray
+* Covid-19 detection: https://www.kaggle.com/bachrr/detecting-covid-19-in-x-ray-images-with-tensorflow
+* Pneumonia detection: https://www.kaggle.com/teyang/pneumonia-detection-resnets-pytorch
+* 
 
