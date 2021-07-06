@@ -1,5 +1,15 @@
-# COVID 19 Detection
-In this project, we developed a  Convolutional Neural Network algorithm to predict Covid-19 from chest X-Ray images. First, we trained the model to predict Pneumonia from the Pneumonia chest X-Ray dataset and then fine-tuned the model on the Covid data
+
+<h1 align="center">
+  <br>
+COVID 19 Detection
+  <br>
+ </h1>
+ </h1>
+  <p align="center">
+    <a • href="https://github.com/arielweizman1">Ariel Weizman</a> 
+    <a • href="https://github.com/shavityaelshavit">Yael Shavit</a>
+  </p>
+In this project, we developed a Convolutional Neural Network algorithm to predict Covid-19 from chest X-Ray images. First, we trained the model to predict Pneumonia from the Pneumonia chest X-Ray dataset and then fine-tuned the model on the Covid data.
 
 
 - [COVID 19 Detection](#covid-19-detection)
@@ -35,8 +45,8 @@ Our algorithm is a form of fine-tuning method. We take the same model we develop
 
 |File name         | Purpsoe |
 |----------------------|------|
-|`COVID_19_Detection.ipynb`| main code for this project in Colaboratory format. to open, import to Colaboratory|
-|`COVID_19_Detection.py`| Main code for this project in py format|
+|`COVID_19_Detection.ipynb`| main code for this project in Colaboratory format.|
+|`COVID_19_Detection.py`| main code for this project in py format|
 |`Creating_the_Covid_19_Dataset.ipynb`| code for fetching only PA X-ray images from the covid dataset. Colaboratory format|
 |`Creating_the_Covid_19_Dataset.py`| code for fetching only PA X-ray images from the covid dataset. py format|
 |`/COVID19/dataset/*`| folders contain the train and test images for covid-19|
@@ -47,7 +57,7 @@ Our algorithm is a form of fine-tuning method. We take the same model we develop
 ## Data
 We used 2 datasets from 2 sources.
 * Pneumonia dataset: set of supervised X-ray images that have been labeled by radiologists as Normal / Pneumonia.
-  * this dataset was loaded from [kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+  * This dataset was loaded from [kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 * Covid dataset: we created this dataset usind 2 surces:
   *  Normal : we loaded images from the *test set* above
   *  Covid : we used [supervised X-ray images](https://www.kaggle.com/bachrr/covid-chest-xray) that have been labeld by radiologists as Covid infected.
@@ -57,15 +67,19 @@ We used 2 datasets from 2 sources.
  We upload the dataset to google drive and accessed the drive while training.
  
 ## Working with the model
-* we trained the model using Google Colab. we trained the model using Google Colab. At the beginning of the code, you can change the directories to work with during the training. more details in the code documentation.
-* there is an option to change the depth of the classifier (version 0,1,2,3,4) and you can add more if you want.
-you can also play with the pretrained model. we choose efficientNet-b0, but you can try other.
+* We trained the model using Google Colab. At the beginning of the code, you can change the directories to work with during the training. more details in the code documentation.
+* There is an option to change the depth of the classifier (version 0,1,2,3,4) and you can add more if you want.
+you can also play with the pretrained model. we chose efficientNet-b0, but you can try other.
 
 
 ## References
-* Pneumonia Dataset source: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
-* Covid-19 Dataset source: https://www.kaggle.com/bachrr/covid-chest-xray
-* Covid-19 detection: https://www.kaggle.com/bachrr/detecting-covid-19-in-x-ray-images-with-tensorflow
-* Pneumonia detection: https://www.kaggle.com/teyang/pneumonia-detection-resnets-pytorch
+[1] Pneumonia Dataset source: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+
+[2] Covid-19 Dataset source: https://www.kaggle.com/bachrr/covid-chest-xray
+
+[3] Covid-19 detection source: https://www.kaggle.com/bachrr/detecting-covid-19-in-x-ray-images-with-tensorflow
+
+[4] Pneumonia detection source: https://www.kaggle.com/teyang/pneumonia-detection-resnets-pytorch
+
 
 
