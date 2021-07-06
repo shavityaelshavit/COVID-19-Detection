@@ -64,3 +64,5 @@ you can also play with the pretrained model. we choose efficientNet, but you can
     * we split manualy and in random way the dataset into train and test.
 
 
+![image](https://user-images.githubusercontent.com/65540180/124578077-8c758d80-de56-11eb-949d-7c68d9293f9e.png)
+
