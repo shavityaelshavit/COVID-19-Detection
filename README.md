@@ -27,6 +27,7 @@ The algorothm for this part use transfer learning. We take some familier ConvNet
   * Given an input chest X-ray image, the algorithm must detect whether the person has been infected with Covid-19 or not.
 The algorithm is a form of fine-tuning method. We take the same model we developed in the first part as a preatrained net. instead of random initializaion, we initialize the network with the weights trained in the first part. next we will do fine-tuning not on the whole Net, but on the layers we added at the first part.
 
+![image](https://user-images.githubusercontent.com/65540180/124578077-8c758d80-de56-11eb-949d-7c68d9293f9e.png)
 
 ## Files in the repository
 
@@ -64,5 +65,5 @@ you can also play with the pretrained model. we choose efficientNet, but you can
     * we split manualy and in random way the dataset into train and test.
 
 
-![image](https://user-images.githubusercontent.com/65540180/124578077-8c758d80-de56-11eb-949d-7c68d9293f9e.png)
+
 
