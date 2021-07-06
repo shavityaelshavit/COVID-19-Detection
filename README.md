@@ -25,22 +25,13 @@ The algorithm is a form of fine-tuning method. We take the same model we develop
 
 ## Files in the repository
 
+
 |File name         | Purpsoe |
 |----------------------|------|
 |`Creating_the_Covid_19_Dataset.ipynb`| code for fetchin only PA X-ray images from the covid dataset|
-|`pong_ls_dqn.py`| main application tailored for Atari's Pong|
-|`boxing_ls_dqn.py`| main application tailored for Atari's Boxing|
-|`dqn_play.py`| sample code for playing a game, also in `ls_dqn_main.py`|
-|`actions.py`| classes for actions selection (argmax, epsilon greedy)|
-|`agent.py`| agent class, holds the network, action selector and current state|
-|`dqn_model.py`| DQN classes, neural networks structures|
-|`experience.py`| Replay Buffer classes|
-|`hyperparameters.py`| hyperparameters for several Atari games, used as a baseline|
-|`srl_algorithms.py`| Shallow RL algorithms, LS-UPDATE|
-|`utils.py`| utility functions|
-|`wrappers.py`| DeepMind's wrappers for the Atari environments|
-|`*.pth`| Checkpoint files for the Agents (playing/continual learning)|
-|`Deep_RL_Shallow_Updates_for_Deep_Reinforcement_Learning.pdf`| Writeup - theory and results|
+|`pong_ls_dqn.py`| main code for this frojet in Colaboratory format. to open, import to Colaboratory|
+|`boxing_ls_dqn.py`| main code for this frojet in py format|
+
 
 
 
