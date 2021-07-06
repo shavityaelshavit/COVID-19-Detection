@@ -38,7 +38,7 @@ The algorithm is a form of fine-tuning method. We take the same model we develop
 |`COVID_19_Detection.py`| main code for this frojet in py format|
 |`Creating_the_Covid_19_Dataset.ipynb`| code for fetching only PA X-ray images from the covid dataset. Colaboratory format|
 |`**COVID_19_Detection.py`| code for fetching only PA X-ray images from the covid dataset. Colaboratory formay|
-|`/COVID19/*`| train and test images for covid-19|
+|`/COVID19/*`| folder contain the train and test images for covid-19|
 
 
 
