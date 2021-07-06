@@ -43,10 +43,6 @@ Our algorithm is a form of fine-tuning method. We take the same model we develop
 
 
 
-## Changing the model
-there is an option to change the depth of the classifier (version 0,1,2,3,4) and you can add more if you want.
-you can also play with the pretrained model. we choose efficientNet-b0, but you can try other.
-
 ## Data
 We used 2 datasets from 2 sourcses.
 * Pneumonia dataset: set of supervised X-ray images that have been labeled by radiologists as Normal / Pneumonia.
