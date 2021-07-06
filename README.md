@@ -57,7 +57,7 @@ We used 2 datasets from 2 sources.
  We upload the dataset to google drive and accessed the drive while training.
  
 ## Working with the model
-* we trained the model using Google Colab. In the beggining od the code you can change the directories to work with during the training. more detiles in the code documentation.
+* we trained the model using Google Colab. we trained the model using Google Colab. At the beginning of the code, you can change the directories to work with during the training. more details in the code documentation.
 * there is an option to change the depth of the classifier (version 0,1,2,3,4) and you can add more if you want.
 you can also play with the pretrained model. we choose efficientNet-b0, but you can try other.
 
