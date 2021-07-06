@@ -57,6 +57,14 @@ We used 2 datasets from 2 sourcses.
   *   we used the `Creating_the_Covid_19_Dataset.ipynb` code to fetch only PA images.
   *   we split the data to train and test randomly. the final dataset used for this project can be found under the `/COVID19/dataset/` folders.
  *  set of supervised X-ray images that have been
+ 
+ We upload the dataset to google drive and accessed the drive while training.
+ 
+## Working with the model
+* we trained the model using Google Colab. In the beggining od the code you can change the directories to work with during the training. more detiles in the code documentation.
+* there is an option to change the depth of the classifier (version 0,1,2,3,4) and you can add more if you want.
+you can also play with the pretrained model. we choose efficientNet-b0, but you can try other.
+
 
 ## References
 * Pneumonia Dataset source: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
