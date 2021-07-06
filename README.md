@@ -6,6 +6,7 @@ In this project, we developed a  Convolutional Neural Network algorithm to predi
   * [Background](#background)
   * [Files in the repository](#files-in-the-repository)
   * [Data](data)
+  * [Working with the model](#working-with-the-model)
   * [References](#references)
 
 ## Background
