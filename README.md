@@ -35,9 +35,9 @@ Our algorithm is a form of fine-tuning method. We take the same model we develop
 |File name         | Purpsoe |
 |----------------------|------|
 |`COVID_19_Detection.ipynb`| main code for this project in Colaboratory format. to open, import to Colaboratory|
-|`COVID_19_Detection.py`| ain code for this project in in py format|
+|`COVID_19_Detection.py`| Main code for this project in py format|
 |`Creating_the_Covid_19_Dataset.ipynb`| code for fetching only PA X-ray images from the covid dataset. Colaboratory format|
-|`Creating_the_Covid_19_Dataset.py`| code for fetching only PA X-ray images from the covid dataset. Colaboratory formay|
+|`Creating_the_Covid_19_Dataset.py`| code for fetching only PA X-ray images from the covid dataset. py format|
 |`/COVID19/dataset/*`| folders contain the train and test images for covid-19|
 
 
