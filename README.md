@@ -44,7 +44,7 @@ Our algorithm is a form of fine-tuning method. We take the same model we develop
 
 
 ## Data
-We used 2 datasets from 2 sourcses.
+We used 2 datasets from 2 sources.
 * Pneumonia dataset: set of supervised X-ray images that have been labeled by radiologists as Normal / Pneumonia.
  * this dataset was loaded from [kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 * Covid dataset: we created this dataset usind 2 surces:
