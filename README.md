@@ -16,10 +16,14 @@ Hence we decided to devide our mission into 2 parts:
 * The first part 
   * Given an input chest X-ray image, the algorithm must detect whether the person has been infected with Pneumonia or not.
 The algorothm for this part use transfer learning. We take some familier ConvNet and use it as fixed feature extractor. we freeze the weights for all of the network except that of the final fully connected layer. This last fully connected layer is replaced with a sevral of new ones, with random weights and only the new layers are trained.
- 
+ ![image](https://user-images.githubusercontent.com/65540180/124584015-6ce16380-de5c-11eb-9f02-09090e9a3b10.png)
+
 * The second part: 
   * Given an input chest X-ray image, the algorithm must detect whether the person has been infected with Covid-19 or not.
 The algorithm is a form of fine-tuning method. We take the same model we developed in the first part as a preatrained net. instead of random initializaion, we initialize the network with the weights trained in the first part. next we will do fine-tuning not on the whole Net, but on the layers we added at the first part.
+
+![image](https://user-images.githubusercontent.com/65540180/124584038-75399e80-de5c-11eb-8098-cc37d4ca62c1.png)
+
 
 ![image](https://user-images.githubusercontent.com/65540180/124578077-8c758d80-de56-11eb-949d-7c68d9293f9e.png)
 
