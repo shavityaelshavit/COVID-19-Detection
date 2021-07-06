@@ -46,13 +46,12 @@ Our algorithm is a form of fine-tuning method. We take the same model we develop
 ## Data
 We used 2 datasets from 2 sources.
 * Pneumonia dataset: set of supervised X-ray images that have been labeled by radiologists as Normal / Pneumonia.
- * this dataset was loaded from [kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+  * this dataset was loaded from [kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 * Covid dataset: we created this dataset usind 2 surces:
- *  Normal : we loaded images from the *test set* above
- *  Covid : we used [supervised X-ray images](https://www.kaggle.com/bachrr/covid-chest-xray) that have been labeld by radiologists as Covid infected.
-  *   we used the `Creating_the_Covid_19_Dataset.ipynb` code to fetch only PA images.
-  *   we split the data to train and test randomly. the final dataset used for this project can be found under the `/COVID19/dataset/` folders.
- *  set of supervised X-ray images that have been
+  *  Normal : we loaded images from the *test set* above
+  *  Covid : we used [supervised X-ray images](https://www.kaggle.com/bachrr/covid-chest-xray) that have been labeld by radiologists as Covid infected.
+     *   we used the `Creating_the_Covid_19_Dataset.ipynb` code to fetch only PA images.
+     *   we split the data to train and test randomly. the final dataset used for this project can be found under the `/COVID19/dataset/` folders.
  
  We upload the dataset to google drive and accessed the drive while training.
  
