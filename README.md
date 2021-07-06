@@ -2,9 +2,10 @@
 In this project we depeloped a  Convolutional Neural Network algorithm to predict Covid-19 from chest X-Ray images. First we trained the model to predict Pneumonia from Pneumonia chest X-Ray dataset, and then fine-tuned the model on the Covid data.
 
 
-- [COVID 19 Detection](#COVID-19-Detection)
+- [COVID 19 Detection](#covid-19-detection)
   * [Background](#background)
   * [Files in the repository](#files-in-the-repository)
+  * [Data](data)
   * [References](#references)
 
 ## Background
@@ -47,14 +48,18 @@ The algorithm is a form of fine-tuning method. We take the same model we develop
 there is an option to change the depth of the classifier (version 0,1,2,3,4) and you can add more if you want.
 you can also play with the pretrained model. we choose efficientNet, but you can try other.
 
+## Data
+We used 2 datasets from 2 sourcses.
+* Pneumonia datased: set of supervised X-ray images that have been labeled by radiologists as Normal / Pneumonia.
+ * this dataset was loaded from [kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+* Covid dataset: we createt this dataset with comination of 2 surces:
+ *  Normal : we loaded images from the *test* set above
+ *  Covid : we used [supervised X-ray images](https://www.kaggle.com/bachrr/covid-chest-xray) that have been labeld by radiologists as Covid infected.
+  *   we used the `Creating_the_Covid_19_Dataset.ipynb` code to fetch only PA images.
+  *   we split the data to train and test randomly. the final dataset used for this project can be found under the `/COVID19/dataset/` folders.
+ *  set of supervised X-ray images that have been
 
 ## References
 * Pneumonia Dataset source: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 * Cobid-19 Dataset source: https://www.kaggle.com/bachrr/covid-chest-xray
-  * Note: we wanted to take only PA images, and also to split the data to train/test folders (in order to use inagefolder). 
-    * we created the dataset using the code in the file: 
-    * we split manualy and in random way the dataset into train and test.
-
-
-
 
